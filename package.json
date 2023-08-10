@@ -1,0 +1,30 @@
+{
+  "name": "zap-ring",
+  "version": "1.0.0",
+  "description": "ring is a command line git helper for working with different authors ⚡",
+  "main": "bin/entry.js",
+  "type": "module",
+  "bin": {
+    "ring": "bin/entry.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapstudios/ring.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "6lyxt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zapstudios/ring/issues"
+  },
+  "homepage": "https://github.com/zapstudios/ring#readme",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "yargs": "^17.7.2"
+  }
+}
